@@ -9,10 +9,10 @@ namespace ProjectEulerProblems
     {
         static void Main(string[] args)
         {
-           
-                Console.WriteLine(Problem2.SumEvenFibonacciNumbers(4000000));
-                Console.ReadKey();
-           
+
+            Console.WriteLine(Problem3.FindPrimeFactors(600851475143).Max());
+            Console.ReadKey();
+
         }
     }
 }
