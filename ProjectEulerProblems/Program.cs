@@ -10,7 +10,7 @@ namespace ProjectEulerProblems
         static void Main(string[] args)
         {
 
-            Console.WriteLine(Problem3.FindPrimeFactors(600851475143).Max());
+            Console.WriteLine(Problem4.LargestPalindromeFromProductionOfThreeDigitNumbers());
             Console.ReadKey();
 
         }
